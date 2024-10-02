@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tienda Online</title>
+</head>
+<body>
+    <header>
+        <h1>Tienda Online</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="contactos.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="productos">
+            <div class="producto">
+                <img src="https://www.sorprendelima.pe/cdn/shop/products/lilchocolates_1_1200x1200.jpg?v=1675101161" alt="Producto 1">
+                <h2>chocoteja</h2>
+                <p>S/1 la und</p>
+                <button onclick="agregarAlCarrito('Producto 1', 29.99)">Agregar al Carrito</button>
+            </div>
+            <div class="producto">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-h3g_Y9UjkysyxAMTdPKgjiNYvNZL_926jCR6e-vpOEqFTCMaLmPtehVgFg&s" alt="Producto 2">
+                <h2>Producto 2</h2>
+                <p>18 la cagita</p>
+                <button onclick="agregarAlCarrito('Producto 2', 49.99)">Agregar al Carrito</button>
+            </div>
+            <div class="producto">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmGrirKrqjF_Gr_wDO4QMkwmaGll57iG4OwtfcUgAIfC_o2lSdkD03uu4Cfg&s" alt="Producto 3">
+                <h2>Producto 3</h2>
+                <p>18 la cagita de 12</p>
+                <button onclick="agregarAlCarrito('Producto 3', 59.99)">Agregar al Carrito</button>
+            </div>
+            
+            <!-- Agrega más productos según sea necesario -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tienda Online. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
